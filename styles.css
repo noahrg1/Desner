@@ -633,3 +633,5 @@ a { color: inherit; }
 .dash .gn { fill: currentColor; stroke: none; font: 500 12px var(--font); opacity: .85; }
 .pl .occ { fill: var(--surface); }
 .pl rect, .pl path[fill] { fill: url(#qp); stroke: none; }
+.pl .teak { opacity: .28; }
+.plan.is-in .pl .teak { stroke-dashoffset: 0; }
