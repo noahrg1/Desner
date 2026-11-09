@@ -548,7 +548,7 @@ a { color: inherit; }
 @keyframes waveA { to { transform: translateX(-220px); } }
 @keyframes waveB { to { transform: translateX(280px); } }
 .rock { transform-box: view-box; transform-origin: 350px 280px; animation: rock2 4.5s ease-in-out infinite; }
-@keyframes rock2 { 0%, 100% { transform: rotate(-4deg) translateY(4px); } 50% { transform: rotate(4deg) translateY(4px); } 25%, 75% { transform: rotate(0) translateY(-4px); } }
+@keyframes rock2 { 0%, 100% { transform: rotate(-2deg) translateY(2px); } 50% { transform: rotate(2deg) translateY(2px); } 25%, 75% { transform: rotate(0) translateY(-2px); } }
 .buoy path { fill: none; stroke: currentColor; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; vector-effect: non-scaling-stroke; }
 .buoy--l { animation: buoyL 4.5s ease-in-out infinite; }
 .buoy--r { animation: buoyR 4.5s ease-in-out infinite; }
