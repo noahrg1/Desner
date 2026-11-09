@@ -637,3 +637,18 @@ a { color: inherit; }
 .plan.is-in .pl .teak { stroke-dashoffset: 0; }
 
 .draw .plate { fill: currentColor; stroke: none; font: 600 13px var(--font); font-stretch: 125%; letter-spacing: .12em; opacity: .7; }
+
+/* Hero: always fit the drawing inside the viewport */
+.profile__stage { grid-template-rows: auto minmax(0, 1fr); }
+.profile__title { font-size: min(var(--step-4), 15vh); }
+.profile__drawing { min-height: 0; height: 100%; display: flex; align-items: center; justify-content: center; padding-block: 1.5vh 0; }
+.profile__drawing svg { width: 100%; height: 100%; max-height: none; }
+@media (max-height: 820px) and (min-width: 761px) {
+  .profile__stage { padding-top: calc(64px + 1.25rem); }
+  .profile__lede { font-size: var(--step-0); margin-bottom: .6rem; }
+  .profile__features { gap: .8rem 1.5rem; }
+  .profile__features li { padding-top: .5rem; }
+}
+@media (max-width: 760px) {
+  .profile__stage { grid-template-rows: auto minmax(0, 1fr) auto; }
+}
