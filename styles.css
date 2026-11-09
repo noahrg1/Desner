@@ -635,3 +635,5 @@ a { color: inherit; }
 .pl rect, .pl path[fill] { fill: url(#qp); stroke: none; }
 .pl .teak { opacity: .28; }
 .plan.is-in .pl .teak { stroke-dashoffset: 0; }
+
+.draw .plate { fill: currentColor; stroke: none; font: 600 13px var(--font); font-stretch: 125%; letter-spacing: .12em; opacity: .7; }
